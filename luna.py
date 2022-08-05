@@ -53,8 +53,8 @@ async def type_and_send(message):
 @luna.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/thehamkercat/LunaChatBot)"
-        + " | [Group](t.me/PatheticProgrammers)",
+        "[YM](https://telegra.ph/file/c422fdf4bc9a1128b64b4.jpg)"
+        + " | [Group](t.me/real_homies)",
         disable_web_page_preview=True,
     )
 
@@ -109,7 +109,7 @@ async def main():
     print(
         """
 -----------------
-| Luna Started! |
+| Homies Luna Started! |
 -----------------
 """
     )
